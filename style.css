@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 75%/120% Arial, Helvetica, sans-serif;
+  
+}
+
+button {
+  border-radius: 15%;
+  background-color: white;
+  border: 3px solid green;
+  width: 56px;
+  height: 32px;
+  color: green; 
+}
+
+button:hover{
+  background-color: green;
+  color:white;
+}
+
+div{
+  padding-bottom: 20px;
+}
+
+.excel-copy {
+  height: 200px;
+  width: 300px;
+  margin: 6px;
+  resize: none;
+  border: 2px solid green;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#code-text {
+  resize: none;
+}
+
+#excel-inp {
+  display: flex;
+  flex-direction: column;  
+  width: 30%;
+  margin: 32px;
+  align-items: center;  
+}
+
+.result {
+  width: 70%
+}
