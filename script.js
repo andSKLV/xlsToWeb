@@ -45,7 +45,8 @@ class Table {
 		this.rowTable = rt;
 	}
 
-	renderTable() {		
+	renderTable() {
+		this._changeTitle();		
 		let tPlace = this.form.querySelector('table');
 		
 		Object.values(this.rowTable).forEach((row,iR)=>{
@@ -73,6 +74,11 @@ class Table {
 		tPlace.innerHTML = '';
 		cPlace.innerHTML = '';
 	}
+
+	_changeTitle() {
+		this.form.querySelector('.h-table').textContent = 'Your table';
+		this.form.querySelector('.h-code').textContent = 'There is your html-code';		
+	}
 }
 
 
@@ -93,5 +99,7 @@ class Main {
 		this.result.renderCode();
 	}
 }
+
+
 
 let app = new Main();

@@ -1,77 +1,28 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;  
 }
-
-button {
-  border-radius: 15%;
-  background-color: white;
-  border: 3px solid green;
-  width: 56px;
-  height: 32px;
-  color: green; 
-}
-
-button:hover{
+header {
   background-color: green;
-  color:white;
+  height: 54px;
+  margin: 0px;
+}
 
+
+h2 {
+  margin: 2px;
+  color:green;
+  font-size: 18px;
+  text-align: center;
 }
 
 div{
-  padding-bottom: 20px;
-}
-table {
-  padding: 0px;
-  
-}
-td{
-  border: 1px solid black;
-  padding: 2px;
-  text-align: center;
-  font-size: 15px;
-}
-
-.excel-copy {
-  height: 200px;
-  width: 300px;
-  margin: 6px;
-  resize: none;
-  border: 2px solid green;
-}
-.row {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-
-#code {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#code-text {
-  height: 300px;
-  width: 500px;
-  resize: none;
-}
-
-#excel-inp {
-  display: flex;
-  flex-direction: column;  
-  width: 30%;
-  margin: 32px;
-  align-items: center;  
-}
-
-.result {
-  width: 70%
+  flex-direction: column;
   align-items: center;
+  padding-bottom: 20px;
+
 
 }
-.table {
 
-}

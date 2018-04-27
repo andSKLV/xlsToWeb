@@ -1,0 +1,37 @@
+button {
+  border-radius: 15%;
+  background-color: white;
+  border: 3px solid green;
+  width: 56px;
+  height: 32px;
+  color: green; 
+}
+
+button:hover{
+  background-color: green;
+  color:white;
+}
+
+.excel-copy {
+  height: 200px;
+  width: 300px;
+  margin: 6px;
+  resize: none;
+  border: 2px solid green;
+}
+
+
+#excel-inp-form {
+  display: flex;
+  flex-direction: column;  
+  justify-content: flex-start;
+  width: 30%;
+  margin: 32px;
+  align-items: center;  
+}
+
+.title {
+  margin: 0px;
+  color:white;
+  text-align: center;
+}

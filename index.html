@@ -2,13 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Table to Web</title>
 	  <link rel="stylesheet" href="style.css">
+	  <link rel="stylesheet" href="table.css">
+		<link rel="stylesheet" href="input.css">
 
 </head>
 <body>
+	<header>
+		<h1 class='title'>Simple Excel to Web</h1>
+	</header>
 	<div class='row'>	
-		<div id='excel-inp'>
+		<div id='excel-inp-form'>
+			<h2>Just copy your table from MS Excel to this form</h2>
 			<textarea class="excel-copy">96,1900	96,1500
 2,9500	2,9200
 0,0540	0,0901</textarea> 
@@ -16,10 +22,12 @@
 		</div>
 
 		<div id='result'>
-			<p>Your table</p>
-			<table cellspacing="0"></table>
-			<div id="code">
-				<p>There is your code for the table:</p>
+			<div class='table-form'>
+				<h2 class='h-table'>Your table will be here</h2>
+				<table cellspacing="0" class = 'table'></table>
+			</div>
+			<div id="code-form">
+				<h2 class='h-code'>There will be your html-code for the table</h2>
 				<textarea id='code-text' readonly></textarea>
 			</div>			
 		</div>
